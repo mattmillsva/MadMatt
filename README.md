@@ -2,7 +2,7 @@
 Custom Kodi add-ons and tools.
 
 ## How to Install
-1. Add URL as a file source in Kodi: `https://mattmillsva.github.io/MadMatt/`
+1. Add URL as a file source in Kodi: `https://mattmillsva.github.io/madmatt/`
 2. Install from zip file -> `repository.madmatt-1.0.0.zip`
 
 repository.madmatt/
