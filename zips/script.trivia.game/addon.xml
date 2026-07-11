@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.trivia.game" 
+       name="Trivia Game - Movies" 
+       version="1.0.0" 
+       provider-name="Matt Mills">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Multiplayer and AI Movie Trivia Game with Dynamic Profiles</summary>
+        <description lang="en">Test your cinema knowledge with live questions fetched from OpenTDB! Featuring support for up to 4 players, custom user profiles to track your progress, and a local top 10 leaderboard to compete with friends.</description>
+        <license>GPL-3.0-or-later</license>
+        <source>https://github.com/yourusername/script.trivia.game</source>
+        <author>Matt Mills</author>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshots/screenshot1.jpg</screenshot>
+            <screenshot>resources/media/screenshots/screenshot2.jpg</screenshot>
+            <screenshot>resources/media/screenshots/screenshot3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
